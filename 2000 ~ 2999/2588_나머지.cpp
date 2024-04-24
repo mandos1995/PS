@@ -1,8 +1,12 @@
-//
-//  2588_나머지.cpp
-//  Cpp
-//
-//  Created by 김민석 on 4/22/24.
-//
-
-#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int a, b;
+    cin >> a >> b;
+    cout << a * (b % 10) << "\n";
+    cout << a * (b % 100 / 10) << "\n";
+    cout << a * (b / 100) << "\n";
+    cout << a * b << "\n";
+}
