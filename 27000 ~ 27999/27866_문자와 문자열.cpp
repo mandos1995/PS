@@ -1,8 +1,11 @@
-//
-//  27866_문자와 문자열.cpp
-//  Cpp
-//
-//  Created by 김민석 on 5/27/24.
-//
+#include <bits/stdc++.h>
+using namespace std;
 
-#include <stdio.h>
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    string s;
+    int n;
+    cin >> s >> n;
+    cout << s[n-1];
+}
